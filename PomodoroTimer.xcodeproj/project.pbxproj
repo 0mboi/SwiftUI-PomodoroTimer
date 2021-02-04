@@ -11,6 +11,10 @@
 		68D1162825CB65D6006FCDF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1162725CB65D6006FCDF4 /* ContentView.swift */; };
 		68D1162A25CB65D7006FCDF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D1162925CB65D7006FCDF4 /* Assets.xcassets */; };
 		68D1162D25CB65D7006FCDF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D1162C25CB65D7006FCDF4 /* Preview Assets.xcassets */; };
+		68D1163625CB6620006FCDF4 /* TimeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1163525CB6620006FCDF4 /* TimeBar.swift */; };
+		68D1163A25CB6977006FCDF4 /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1163925CB6977006FCDF4 /* TimeButton.swift */; };
+		68D1163D25CB6B3C006FCDF4 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1163C25CB6B3C006FCDF4 /* TimeModel.swift */; };
+		68D1164425CB6FC0006FCDF4 /* TimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1164325CB6FC0006FCDF4 /* TimeLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		68D1162925CB65D7006FCDF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D1162C25CB65D7006FCDF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68D1162E25CB65D7006FCDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D1163525CB6620006FCDF4 /* TimeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBar.swift; sourceTree = "<group>"; };
+		68D1163925CB6977006FCDF4 /* TimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
+		68D1163C25CB6B3C006FCDF4 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		68D1164325CB6FC0006FCDF4 /* TimeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				68D1162525CB65D6006FCDF4 /* PomodoroTimerApp.swift */,
-				68D1162725CB65D6006FCDF4 /* ContentView.swift */,
+				68D1164125CB6EBE006FCDF4 /* Views */,
+				68D1163F25CB6EAF006FCDF4 /* Model */,
 				68D1162925CB65D7006FCDF4 /* Assets.xcassets */,
 				68D1162E25CB65D7006FCDF4 /* Info.plist */,
 				68D1162B25CB65D7006FCDF4 /* Preview Content */,
@@ -67,6 +76,25 @@
 				68D1162C25CB65D7006FCDF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68D1163F25CB6EAF006FCDF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68D1163C25CB6B3C006FCDF4 /* TimeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68D1164125CB6EBE006FCDF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68D1162725CB65D6006FCDF4 /* ContentView.swift */,
+				68D1163525CB6620006FCDF4 /* TimeBar.swift */,
+				68D1164325CB6FC0006FCDF4 /* TimeLabel.swift */,
+				68D1163925CB6977006FCDF4 /* TimeButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D1162825CB65D6006FCDF4 /* ContentView.swift in Sources */,
+				68D1164425CB6FC0006FCDF4 /* TimeLabel.swift in Sources */,
+				68D1163625CB6620006FCDF4 /* TimeBar.swift in Sources */,
+				68D1163A25CB6977006FCDF4 /* TimeButton.swift in Sources */,
 				68D1162625CB65D6006FCDF4 /* PomodoroTimerApp.swift in Sources */,
+				68D1163D25CB6B3C006FCDF4 /* TimeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
